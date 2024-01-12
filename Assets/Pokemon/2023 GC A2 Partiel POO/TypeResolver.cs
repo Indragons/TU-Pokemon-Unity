@@ -10,6 +10,10 @@ namespace _2023_GC_A2_Partiel_POO.Level_2
 
     public class TypeResolver
     {
+        public TypeResolver(Character character1, Character character2) 
+        {
+            
+        }
 
         /// <summary>
         /// Récupère le facteur multiplicateur pour la résolution des résistances/faiblesses

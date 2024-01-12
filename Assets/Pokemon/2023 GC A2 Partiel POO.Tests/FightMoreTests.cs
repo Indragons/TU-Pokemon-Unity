@@ -24,6 +24,9 @@ namespace _2023_GC_A2_Partiel_POO.Tests.Level_2
             var charmander = new Character(100, 50, 30, 20, TYPE.FIRE);
             var bulbasaur = new Character(100,30,20,50, TYPE.GRASS);
             var squirtle = new Character(100, 20, 50, 30, TYPE.WATER);
+            var test = new TypeResolver();
+
+            test.GetFactor(bulbasaur.BaseType, squirtle.BaseType);
         }
     }
 }
